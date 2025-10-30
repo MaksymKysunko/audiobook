@@ -28,4 +28,4 @@ if __name__ == "__main__":
 
     print("\nSpeaking with each voice:")
     for v in voices:
-        speak_with_voice(v.id, "Hello world. This is a voice test.", rate=175, volume=1.0)
+        speak_with_voice(v.id, "Hello world. This is a voice test.", rate=100, volume=1.0)
